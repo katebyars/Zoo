@@ -1,4 +1,27 @@
 
+
+#body {
+  background-image: url("/resources/images/palm.jpg");
+  background-size: cover;
+}
+
+#newAnimal {
+  display: block;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: green;
+  color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%
+
+}
+
+#header {
+  background-size: cover;
+  height: 250px;
+}
+
 p {
   text-align: justify;
   font-size: 18px;
@@ -6,18 +29,9 @@ p {
 
 }
 
-body {
-  background-color: none;
-}
 label {
     font-size: 16px;
   }
-
-#header {
-  background-color: white;
-  background-size: cover;
-  height: 250px;
-}
 
 select {
   margin-left: 12px;
@@ -48,4 +62,11 @@ li {
 .rowTwo {
   padding-top: 100px;
   /*margin-top: 50px;*/
+}
+
+#right-float {
+  float: right;
+}
+#left-float {
+  float: left;
 }
