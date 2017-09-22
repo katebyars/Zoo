@@ -4,44 +4,44 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'new-animal',
   template: `
-  <form>
-  <div>
-   <label> Species:</label>
-   <input #species type="text">
-  </div>
-  <div>
-    <label> Name:</label>
-    <input #name type="text">
-  </div>
-  <div>
-    <label> Age:</label>
-    <input #age type="number">
-  </div>
-  <div>
-    <label>Diet:</label>
-    <input #diet type="text" >
-  </div>
-  <div>
-    <label>Location:</label>
-    <input #location type="text" >
-  </div>
-  <div>
-    <label>Caretakers:</label>
-    <input #caretakers type="number" >
-  </div>
-  <div>
-    <label>Sex:</label>
-    <input #sex type="text" >
-  </div>
-  <div>
-    <label>Likes:</label>
-    <input #likes type="text" >
-  </div>
-  <div>
-    <label>Dislikes:</label>
-    <input #dislikes type="text" >
-  </div>
-    <button (click)="submitForm(species.value, name.value, age.value, diet.value, location.value, caretakers.value, sex.value, likes.value, dislikes.value)">Create Animal!</button>
+  <form class="newAnimalForm">
+    <div class="form-group">
+     <label> Species:</label>
+     <input class="form-control"  #species type="text">
+    </div>
+    <div class="form-group">
+      <label> Name:</label>
+      <input class="form-control"  #name type="text">
+    </div>
+    <div class="form-group">
+      <label> Age:</label>
+      <input class="form-control"  #age type="number">
+    </div>
+    <div class="form-group">
+      <label>Diet:</label>
+      <input class="form-control"  #diet type="text" >
+    </div>
+    <div class="form-group">
+      <label>Location:</label>
+      <input  class="form-control" #location type="text" >
+    </div>
+    <div class="form-group">
+      <label>Caretakers:</label>
+      <input class="form-control" #caretakers type="number" >
+    </div>
+    <div class="form-group">
+      <label>Sex:</label>
+      <input class="form-control"  #sex type="text" >
+    </div>
+    <div class="form-group">
+      <label>Likes:</label>
+      <input  class="form-control" #likes type="text" >
+    </div>
+    <div class="form-group">
+      <label>Dislikes:</label>
+      <input class="form-control"  #dislikes type="text" >
+    </div>
+      <button class="btn-default" (click)="submitForm(species.value, name.value, age.value, diet.value, location.value, caretakers.value, sex.value, likes.value, dislikes.value)">Create Animal!</button>
   </form>
   `
 })

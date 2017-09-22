@@ -6,11 +6,10 @@ import { Animal } from './animal.model';
   template: `
     <div class="container">
     <h1>Zoo Residents</h1>
-    <h3>{{currentFocus}}</h3>
     <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
     <edit-animal [childSelectedAnimal] = "selectedAnimal" (editButtonClickedSender) = "finishedEditing()"></edit-animal>
     <animal-list [childAnimalList] = "masterAnimals" (clickSender)="editButtonClicked($event)"></animal-list>
-  </div>
+    </div>
   `
 
 })

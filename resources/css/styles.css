@@ -1,0 +1,51 @@
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: sans-serif;
+
+}
+
+body {
+  background-color: none;
+}
+label {
+    font-size: 16px;
+  }
+
+#header {
+  background-color: white;
+  background-size: cover;
+  height: 250px;
+}
+
+select {
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+p {
+  text-align: justify;
+  font-size: 12px;
+}
+li {
+  font-size: 16px;
+}
+
+.btn-default {
+  font-family: sans-serif;
+  padding: 22px;
+  width: 50 px;
+  height: 20px;
+  font-size: 22px;
+}
+
+.well {
+  display: none;
+  background: none;
+}
+
+.rowTwo {
+  padding-top: 100px;
+  /*margin-top: 50px;*/
+}
