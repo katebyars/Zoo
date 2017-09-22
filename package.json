@@ -1,5 +1,5 @@
 {
-  "name": "taproom",
+  "name": "zoo",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
@@ -46,12 +46,12 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katebyars/TaproomTwo.git"
+    "url": "git+https://github.com/katebyars/Zoo.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/katebyars/TaproomTwo/issues"
+    "url": "https://github.com/katebyars/Zoo.git/issues"
   },
-  "homepage": "https://github.com/katebyars/TaproomTwo#readme",
+  "homepage": "https://github.com/katebyars/Zoo.git#readme",
   "description": ""
 }

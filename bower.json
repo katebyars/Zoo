@@ -1,9 +1,9 @@
 {
-  "name": "taproom",
+  "name": "zoo",
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "https://github.com/katebyars/TaproomTwo",
+  "homepage": "https://github.com/katebyars/Zoo.git",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -13,5 +13,8 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7"
-  }
+  },
+  "authors": [
+    "Kate Byars <katebyars5@gmail.com>"
+  ]
 }
