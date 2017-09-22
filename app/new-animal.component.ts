@@ -4,9 +4,9 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'new-animal',
   template: `
-    <div class="col-md-3" id="left-float">
-    <button class="btn" id="newAnimal" (click)="showHide = !showHide">New Animal</button>
+  <button class="btn" id="newAnimal" (click)="showHide = !showHide">New<br> Animal</button>
       <div *ngIf="showHide">
+      <div class="well">
         <form class="newAnimalForm">
           <div class="form-group">
            <label> Species:</label>
@@ -44,7 +44,7 @@ import { Animal } from './animal.model';
             <label>Dislikes:</label>
             <input class="form-control"  #dislikes type="text" >
           </div>
-            <button class="btn-default" (click)="submitForm(species.value, name.value, age.value, diet.value, location.value, caretakers.value, sex.value, likes.value, dislikes.value)">Create Animal!</button>
+            <button class="btn-default" (click)="submitForm(species.value, name.value, age.value, diet.value, location.value, caretakers.value, sex.value, likes.value, dislikes.value)" (click)="showHide = !showHide" >Go!</button>
         </form>
       </div>
     </div>

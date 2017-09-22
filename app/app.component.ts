@@ -4,11 +4,10 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'app-root',
   template: `
-    <div class="container-fluid">
-      <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
-      <edit-animal [childSelectedAnimal] = "selectedAnimal" (editButtonClickedSender) = "finishedEditing()"></edit-animal>
-      <animal-list [childAnimalList] = "masterAnimals" (clickSender)="editButtonClicked($event)"></animal-list>
-    </div>
+  <new-animal id="left-float" class="col-md-3" (newAnimalSender)="addAnimal($event)"></new-animal>
+    <animal-list id="right-float" class="col-md-9" [childAnimalList] = "masterAnimals" (clickSender)="editButtonClicked($event)"></animal-list>
+
+    <edit-animal [childSelectedAnimal] = "selectedAnimal" (editButtonClickedSender) = "finishedEditing()"></edit-animal>
   `
 
 })
